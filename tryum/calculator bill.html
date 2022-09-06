@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <link= "stylesheet" type="text/css" href="ext.css">
+</html>
+<body>
+    <h1>CALCULATOR</h1>
+    <form onsubmit="Totalprice.innerHTML=price.value*qty.value;return false">
+        <table>
+        <tr>
+            <td>
+                <label for ="product name">product name</label>
+            </td>
+            <td>
+                <input type="text" id="productname" placeholder="product name" name="Product name" required/>
+                </td>
+        </tr>
+        <tr>
+            <td><label for="Product Price in Rs.">Product Price in Rs.</label></td>
+            <td><input type="number"  id="price"  placeholder="productprice"name="Product price" required /></td>
+        </tr>
+        <tr>
+            <td><label for="Quantity">Quantity</label></td>
+            <td><input type="number"  id="qty" placeholder="Quantity"name="Product price" required /></td>
+        </tr>
+        <tr>
+            <td><label for="Total Price in Rs.">Product Price in Rs.</label></td>
+            <output  name=" Total price" id="Totalprice"></output>
+        </tr>
+        <tr>
+            <td>
+                <label for="submit"></label>
+            </td>
+            <td>
+                <input type="submit" name="submit">
+            </td>
+        </tr>
+    </form>
+</table>
+</body>
+</html>
